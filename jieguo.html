@@ -63,10 +63,13 @@ a:hover{
 }/*设置页面头部信息区域*/
 #container {
 	width:100%;
+	height:550px;
 	margin-bottom:5px;
 }/*设置页面中部区域*/
 #mainBox {
-/*因为是固定宽度，采用浮动方法可避免ie 3像素bug*/
+	width:500px;
+	height:480px; 
+	float:center;/*因为是固定宽度，采用浮动方法可避免ie 3像素bug*/
         margin:0 auto;
         border-radius：30px；
 	border:2px solid#D6D3C7;/*边框为2px的浅灰色实线*/
@@ -90,7 +93,7 @@ a:hover{
 <div id="wrap">
 	<div id="header"><h5 align="center";>你的测试结果 </h5></div>
   <div id="container">
-    <div id="mainBox">
+    <div id="mainBox" align="center">
 <h1>你是一个</br>
 元气才子类型的人</br>
 主动性66%</br>
